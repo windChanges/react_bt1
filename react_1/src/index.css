@@ -1,1 +1,5 @@
 @import "tailwindcss";
+/* Áp dụng box-sizing cho toàn bộ phần tử */
+*, ::before, ::after {
+  @apply box-border;
+}
